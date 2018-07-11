@@ -1,0 +1,14 @@
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\RBPizzaRest.Test.deps.json
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\RBPizzaRest.Test.runtimeconfig.json
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\RBPizzaRest.Test.runtimeconfig.dev.json
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\RBPizzaRest.Test.dll
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.csproj.CoreCompileInputs.cache
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.AssemblyInfoInputs.cache
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.AssemblyInfo.cs
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\RBPizzaRest.Test.pdb
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.dll
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.pdb
+C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.csprojAssemblyReference.cache
