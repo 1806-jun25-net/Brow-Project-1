@@ -12,3 +12,17 @@ C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1
 C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.dll
 C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.pdb
 C:\Users\Mamba\source\repos\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.csprojAssemblyReference.cache
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\RBPizzaRest.Test.deps.json
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\RBPizzaRest.Test.runtimeconfig.json
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\RBPizzaRest.Test.runtimeconfig.dev.json
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\RBPizzaRest.Test.dll
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\bin\Debug\netcoreapp2.1\RBPizzaRest.Test.pdb
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.csprojAssemblyReference.cache
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.csproj.CoreCompileInputs.cache
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.AssemblyInfoInputs.cache
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.AssemblyInfo.cs
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.dll
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Test\obj\Debug\netcoreapp2.1\RBPizzaRest.Test.pdb

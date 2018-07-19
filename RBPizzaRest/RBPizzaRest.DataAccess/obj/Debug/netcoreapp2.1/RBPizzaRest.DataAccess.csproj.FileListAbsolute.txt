@@ -1,0 +1,11 @@
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.DataAccess\bin\Debug\netcoreapp2.1\RBPizzaRest.DataAccess.deps.json
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.DataAccess\bin\Debug\netcoreapp2.1\RBPizzaRest.DataAccess.dll
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.DataAccess\bin\Debug\netcoreapp2.1\RBPizzaRest.DataAccess.pdb
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.DataAccess\obj\Debug\netcoreapp2.1\RBPizzaRest.DataAccess.csproj.CoreCompileInputs.cache
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.DataAccess\obj\Debug\netcoreapp2.1\RBPizzaRest.DataAccess.AssemblyInfoInputs.cache
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.DataAccess\obj\Debug\netcoreapp2.1\RBPizzaRest.DataAccess.AssemblyInfo.cs
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.DataAccess\obj\Debug\netcoreapp2.1\RBPizzaRest.DataAccess.dll
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.DataAccess\obj\Debug\netcoreapp2.1\RBPizzaRest.DataAccess.pdb
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.DataAccess\bin\Debug\netcoreapp2.1\RBPizzaRest.DataAccess.runtimeconfig.json
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.DataAccess\bin\Debug\netcoreapp2.1\RBPizzaRest.DataAccess.runtimeconfig.dev.json
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.DataAccess\obj\Debug\netcoreapp2.1\RBPizzaRest.DataAccess.csprojAssemblyReference.cache

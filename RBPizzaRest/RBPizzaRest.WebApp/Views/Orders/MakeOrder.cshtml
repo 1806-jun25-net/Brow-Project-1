@@ -1,0 +1,49 @@
+﻿@model RBPizzaRest.WebApp.Models.MVPizza
+
+@{
+
+    ViewData["Title"] = "MakeOrder";
+}
+
+<h2>MakeOrder</h2>
+<form asp-action="MakeOrder" method="post">
+    <div class="form-group">
+        @Html.DropDownListFor(x => x.SelectedSize, new List<SelectListItem>
+        {
+              new SelectListItem() {Text = "Small   $5.00", Value = "Small"},
+              new SelectListItem() {Text = "Medium  $10.00", Value = "Medium"},
+              new SelectListItem() {Text = "Large   $15.00", Value = "Large"},
+              new SelectListItem() {Text = "ExtraLarge   $20.00", Value = "ExtraLarge"},
+
+        }, "Select A Size")
+    </div>
+    <div class="form-group">
+        @Html.DropDownListFor(x => x.SelectedTopping, new List<SelectListItem>
+        {
+              new SelectListItem() {Text = "Chicken", Value = "CHICKEN"},
+              new SelectListItem() {Text = "Pepperoni", Value = "PEPPERONI"},
+              new SelectListItem() {Text = "Bacon", Value = "BACON"},
+
+        }, "Select A Topping")
+    </div>
+    <div class="form-group">
+        @Html.DropDownListFor(x => x.SelectedCrust, new List<SelectListItem>
+        {
+              new SelectListItem() {Text = "Yes", Value = "True"},
+              new SelectListItem() {Text = "No", Value = "False"},
+
+
+        }, "Select A Crust")
+
+
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Add Pizzas" class="btn btn-default" />
+    </div>
+</form>
+
+<form asp-action="Details">
+    <div class="form-group">
+        <input type="submit" value="Complete Order" class="btn btn-default" />
+    </div>
+</form>

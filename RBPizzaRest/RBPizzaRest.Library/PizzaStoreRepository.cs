@@ -64,6 +64,7 @@ namespace RBPizzaRest.Library
             else
             {
                 Console.WriteLine(value: $"customer found: {cust.FirstName}" );
+                Console.ReadLine();
             }
             
         }

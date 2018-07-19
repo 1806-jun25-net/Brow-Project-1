@@ -1,0 +1,11 @@
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Library\bin\Release\netcoreapp2.1\RBPizzaRest.Library.deps.json
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Library\bin\Release\netcoreapp2.1\RBPizzaRest.Library.runtimeconfig.json
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Library\bin\Release\netcoreapp2.1\RBPizzaRest.Library.runtimeconfig.dev.json
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Library\bin\Release\netcoreapp2.1\RBPizzaRest.Library.dll
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Library\bin\Release\netcoreapp2.1\RBPizzaRest.Library.pdb
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Library\obj\Release\netcoreapp2.1\RBPizzaRest.Library.csprojAssemblyReference.cache
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Library\obj\Release\netcoreapp2.1\RBPizzaRest.Library.csproj.CoreCompileInputs.cache
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Library\obj\Release\netcoreapp2.1\RBPizzaRest.Library.AssemblyInfoInputs.cache
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Library\obj\Release\netcoreapp2.1\RBPizzaRest.Library.AssemblyInfo.cs
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Library\obj\Release\netcoreapp2.1\RBPizzaRest.Library.dll
+D:\Revature\RBPizza_Store-Project-1\RBPizzaRest\RBPizzaRest.Library\obj\Release\netcoreapp2.1\RBPizzaRest.Library.pdb

@@ -1,0 +1,98 @@
+﻿@model ViewModelOrderPizzas
+@using RBPizzaRest.DataAccess;
+
+@{
+    ViewData["Title"] = "IndexVM";
+}
+
+<h2>Orders!</h2>
+
+<p>
+    @*<a asp-action="Create">Create New</a>*@
+<p>
+
+    @using (Html.BeginForm())
+    {
+    <p>
+        Find by name: @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+
+    <b>Orders List</b>
+   
+    <table class="table">
+
+        @foreach (Orders order in Model.ODS)
+        {
+            <table>
+
+
+                <tr>
+                    <th>Order Number</th>
+                    <th>Customer Name</th>
+                    <th>Customer Last Name</th>
+                    <th>Order Location</th>
+                    <th>Price</th>
+                    <th>
+                        @Html.ActionLink("Final Price", "IndexVM", new { sortOrder = ViewBag.PriceSortParm })
+                    </th>
+                    <th>
+                        @Html.ActionLink("Order Date", "IndexVM", new { sortOrder = ViewBag.DateSortParm })
+                    </th>
+                    <th>Store Name</th>
+                    <th>Customer Phone Number</th>
+                </tr>
+                <tr>
+                    <td>@order.OrderNumber</td>
+                    <td>@order.CustomerName</td>
+                    <td>@order.CustomerLastname</td>
+                    <td>@order.OrderLocaton</td>
+                    <td>@order.PizzaPrice</td>
+                    <td>@order.PizzaFprice</td>
+                    <td>@order.OrderDate</td>
+                    <td>@order.StoreName</td>
+                    <td>@order.CustomerPhoneNumber</td>
+                </tr>
+            </table>
+
+            <p><b>Pizza List</b></p>
+            <table class="table">
+                <tr>
+                    <th>Size</th>
+                    <th>Topping</th>
+                    <th>Garlic Crust</th>
+                    <th></th>
+                </tr>
+
+                @foreach (Pizza piz in Model.ODP.Where(x => x.OrderId == order.OrderNumber)
+              )
+                {
+                    <tr>
+                        <td>@piz.Size</td>
+                        <td>@piz.Topping</td>
+                        <td>@piz.GarlicCrust</td>
+                    </tr>
+                }
+            </table>
+        }
+    </table>
+
+
+
+    @*<table class="table">
+            <tr>
+                <th>Size</th>
+                <th>Topping</th>
+                <th>Garlic Crust</th>
+                <th></th>
+            </tr>
+            @foreach (Pizza piz in Model.ODP)
+            {
+                <tr>
+                    <td>@piz.Size</td>
+                    <td>@piz.Topping</td>
+                    <td>@piz.GarlicCrust</td>
+                </tr>
+            }
+        </table>*@

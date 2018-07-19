@@ -26,7 +26,8 @@ namespace RBPizzaRest.Library
                 Console.WriteLine("1) Create User.");
                 Console.WriteLine("2) Place an Order.");
                 Console.WriteLine("3) Administration.");
-                Console.WriteLine("4) Exit.");
+                Console.WriteLine("4) Confirm Customer.");
+                Console.WriteLine("5) Exit.");
                 Console.WriteLine();
                 Console.WriteLine("---------- Revature ----------");
                 Console.WriteLine("**************************************************");
@@ -52,6 +53,11 @@ namespace RBPizzaRest.Library
                             break;
                         }
                     case 4:
+                        {
+                            SearchCustomer();
+                            break;
+                        }
+                    case 5:
                         {
                             exit = false;
                             break;
@@ -149,9 +155,9 @@ namespace RBPizzaRest.Library
             Console.Clear();
             Console.WriteLine("------Place you're order------");
             Console.WriteLine("");
-            Console.WriteLine("Enter youre name: ");
+            Console.Write("Enter youre name: ");
             CName = Console.ReadLine();
-            Console.WriteLine("And you're phone number: ");
+            Console.Write("And you're phone number: ");
             Pnum = Console.ReadLine();
             if (Pnum == null || Pnum == " ")
             {
@@ -493,10 +499,10 @@ namespace RBPizzaRest.Library
             Console.Clear();
             Console.WriteLine("------Place you're order------");
             Console.WriteLine("");
-            Console.WriteLine("Enter youre name: ");
+            Console.Write("Enter youre name: ");
             CName = Console.ReadLine();
             CName = CName.ToUpper();
-            Console.WriteLine("And you're phone number: ");
+            Console.Write("And you're phone number: ");
             Pnum = Console.ReadLine();
             if (Pnum == null || Pnum == " ")
             {
@@ -539,7 +545,7 @@ namespace RBPizzaRest.Library
                         Console.WriteLine("==============================");
                         count++;
                     }
-                    Console.WriteLine("Where do you want to order from: ");
+                    Console.Write("Where do you want to order from: ");
                     int ch = Convert.ToInt32(Console.ReadLine());
 
                     switch (ch)
@@ -843,10 +849,10 @@ namespace RBPizzaRest.Library
 
 
 
-            Console.WriteLine("Enter youre name: ");
+            Console.Write("Enter youre name: ");
             CName = Console.ReadLine();
             CName = CName.ToUpper();
-            Console.WriteLine("And you're phone number: ");
+            Console.Write("And you're phone number: ");
             Pnumber = Console.ReadLine();
 
 
@@ -918,8 +924,8 @@ namespace RBPizzaRest.Library
 
             Console.WriteLine("1) by earliest.");
             Console.WriteLine("2) by latest.");
-            Console.WriteLine("3) by highest price.");
-            Console.WriteLine("4) by lowest price.");
+            Console.WriteLine("3) by lowest price.");
+            Console.WriteLine("4) by highest price.");
             Console.WriteLine("How would you like to see the orders: ");
             i = Convert.ToInt32(Console.ReadLine());
 
@@ -1189,6 +1195,7 @@ namespace RBPizzaRest.Library
             Console.WriteLine("");
             Console.WriteLine("Please enter customer Name: ");
             Name = Console.ReadLine();
+            Name = Name.ToUpper();
             Console.WriteLine("And phone number: ");
             Pnumber = Console.ReadLine();
             if (Pnumber == null || Pnumber == " ")
@@ -1217,6 +1224,7 @@ namespace RBPizzaRest.Library
             var PST = repo;
 
             PST.FindbyNameandnumber(Name, Pnumber);
+            Menu();
 
 
         }
